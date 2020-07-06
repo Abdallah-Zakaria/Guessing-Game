@@ -2,6 +2,7 @@
 
 // Welcome message.
 var userName = prompt("Please enter your name ");
+console.log("the user name is: " + userName)
 var welcomeMessage = "Hello " + userName + ", Welcome to my guess game about me :) ";
 var noName = "";
 if (userName !== noName){
@@ -23,22 +24,32 @@ var answerOne = prompt(questionOne).toLowerCase();
 if (answerOne !== "yes" && answerOne !== "no"){
     var answerOne = prompt("Use only yes or no to answer this question : " + questionOne).toLowerCase();
 }
+console.log("my question was :" + questionOne + " his answer was: " + answerOne )
+
 var answerTwo = prompt(questionTwo).toLowerCase();
 if (answerTwo != "yes" && answerTwo != "no"){
     var answerOne = prompt("Use only yes or no to answer this question : " + questionOne).toLowerCase();
 }
+console.log("my question was :" + questionTwo + " his answer was: " + answerTwo )
+
 var answerThree = prompt(questionThree).toLowerCase();
 if (answerThree != "yes" && answerThree != "no"){
     var answerOne = prompt("Use only yes or no to answer this question : " + questionOne).toLowerCase();
 }
+console.log("my question was :" + questionThree + " his answer was: " + answerThree )
+
 var answerFour = prompt(questionFour).toLowerCase();
 if (answerFour != "yes" && answerFour != "no"){
     var answerFour = prompt("Use only yes or no to answer this question : " + questionOne).toLowerCase();
 }
+console.log("my question was :" + questionFour + " his answer was: " + answerFour )
+
 var answerFive = prompt(questionFive).toLowerCase();
 if (answerFive != "yes" && answerFive != "no"){
     var answerFive = prompt("Use only yes or no to answer this question : " + questionOne).toLowerCase();
 }
+console.log("my question was :" + questionFive + " his answer was: " + answerFive )
+
 
 //  Question correctly
 if (answerOne == "yes"){
@@ -71,4 +82,5 @@ if (answerFive == "yes"){
     var userResult = userResult + " Q5. False";
 }
 
-alert("your answers result : " + userResult);
+alert("your result " + userName+ "was : " + userResult);
+console.log("the final result for " + userName + " was " + userResult) 
