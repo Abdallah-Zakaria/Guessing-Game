@@ -103,16 +103,12 @@ while (loopON ){
     remainGuess--;
     if (userGuess > myNumber && userGuess <= 100){
         promptMessage = "try low number";
-    }else if (userGuess < myNumber && userGuess >= 0){
+    }else if (userGuess < myNumber && userGuess > 0){
         promptMessage = "try high number";
     }else if (userGuess == myNumber ){
         alert("bravo " + userName + " you guess it in " + repeatGuess + " times :)")
         answer6th= "true";
         loopON = false;
-    }else if (" "=== myNumber) {
-        promptMessage= "I told you " + userName+ " the number is between 0 and 100, i will not consider it as try" ;
-        repeatGuess--;
-        remainGuess++;
     }else {
         promptMessage= "I told you " + userName+ " the number is between 0 and 100, i will not consider it as try" ;
         repeatGuess--;
