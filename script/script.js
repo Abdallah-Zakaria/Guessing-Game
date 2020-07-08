@@ -140,3 +140,4 @@ while (stillGuess && stillGuessTries < 6 ){
 var finalResultAllStages = userResult + " ,Q6 " + answer6th + " ,Q7 " + answer7th;
 alert("your final results "+ userName + " is: " +finalResultAllStages + " THANK YOU FOR YOUR TIME :)");
 console.log(finalResultAllStages);
+console.log("test")
