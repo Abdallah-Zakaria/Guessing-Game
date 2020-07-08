@@ -7,4 +7,5 @@ Here the web select number and this number the user should guess it within 4 tri
 if you can guess it the site will give him a pass in the 6th question and how much tries he need to find it, but if he fail in the 4 tries will the site give it fail.
 ## Question number 7
 Here the website give the user 12 country to choose one out of three correct that i visit it, he must find it within 6 tries, and if he pass or lose the website will give the user the three correct answer.
-### test
+### Abdullah  was Navigator 
+### Amjad  was Driver 
