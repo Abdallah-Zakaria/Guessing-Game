@@ -1,10 +1,10 @@
 body {
-    background: steelblue;
+    background: rgba(0, 0, 255, 0.5);
     text-align: center;
 
 }
 h1 {
-    background: red;
+    background: linear-gradient(red , blue );
     border: 2px solid black;
 
 }
@@ -21,4 +21,30 @@ li {
     border: black;
     padding: 10px;
     color: white;
+
+}
+
+img{
+    border: solid 5px red;
+}
+.a{
+    text-align: left;
+    color: black;
+    font-size: x-large;
+}
+img {
+    display: none;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: -200px;
+    left: 600px;
+    border: solid 5px red;
+}
+
+ol li:hover{
+    color: red;
+}
+li:hover img{
+    display:block;
 }
